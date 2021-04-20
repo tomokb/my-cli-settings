@@ -1,0 +1,18 @@
+# .inputrc is for programs that use the GNU Readline library for their command-line interface
+
+# Readline supports basic Vim emulation: 
+set editing-mode vi
+
+# Indicate current editing mode
+set show-mode-in-prompt on
+
+# Indicate insert mode
+#set vi-ins-mode-string \1\e[6 q\2
+set vi-ins-mode-string "+"
+
+# Indicate command mode
+#set vi-cmd-mode-string \1\e[2 q\2
+set vi-cmd-mode-string " "
+
+# turn off error bell
+set bell-style none
