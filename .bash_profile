@@ -11,6 +11,11 @@ alias python="/usr/local/bin/python3"
 # python2 runs default (older version)
 alias python2="/usr/bin/python"
 
+# git aliases
+alias glog="git log --oneline --decorate --color --graph"
+alias glg="git log --graph --pretty=format:'%C(auto)%h -%d %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit"
+
+
 ## Configure Bash prompt.
 DEFAULT_PS1="\h:\W \u\$ "
 
