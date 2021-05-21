@@ -1,9 +1,9 @@
 ## Aliases
+alias ll="ls -lAhF"
+alias cl="clear"
 alias vsc="open -a \"Visual Studio Code\""
 alias vs="open -a \"Visual Studio\""
-alias mvim="open -a MacVim"
 alias desk="cd ~/Desktop"
-alias cl="clear"
 alias txt="open -a TextEdit"
 alias word="open -a \"Microsoft Word\""
 # python runs python3 (and not python2)
